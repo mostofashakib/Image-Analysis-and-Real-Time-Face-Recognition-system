@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- The above 4 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <!-- Title -->
+    <title> Demo Website </title>
+</head>
+<body>
+	<div class="container"> <br />
+    <div class="row">
+    	<div class="custom">
+			<div class="panel panel-default">
+				<div class="panel-heading"><strong> Upload to see if the pictures are a match</strong> <small> </small></div>
+				<div class="panel-body">
+					<div class="cstm">
+						<form method="POST" enctype="multipart/form-data" id="file-upload-form" class="uploader">
+							<div>
+								<i class="fa fa-download" aria-hidden="true"></i>
+								<input class="btn btn-primary" type="file" name="file">
+							</div>
+								<input class="btn btn-primary" type="submit" value="Upload">
+						</form>
+					<br />
+					<!-- Drop Zone -->
+					<br />
+					<!-- Progress Bar -->
+					<div class="progress">
+						<div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 60%;"> <span class="sr-only"> 80% Complete</span> </div>
+					</div>
+					<br />
+				</div>
+			</div>
+		</div>        
+	</div>
+</div>
+
+</div>
+
+<style type="text/css">
+	.custom{
+		padding-top: 200px;
+		width: 100%;
+	}
+
+	.cstm{
+		position: relative;
+    	display: table;
+    	padding-left: 400px;
+    	border-collapse: separate;
+	}
+}
+
+</style>
+
+</body>
+
+<script src="//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+
+</html>
